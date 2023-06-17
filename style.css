@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    max-width: 360px;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  button {
+    padding: 20px 40px;
+    font-size: 30px;
+    background-color: #da04ab;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  p {
+    margin-top: 30px;
+    font-size: 30px;
+  }
+
+  .tempo-restante {
+    font-size: 20px; /* Ajuste o tamanho da fonte conforme necessário */
+  }
+  
+  .proximo-clique {
+    font-size: 20px; /* Ajuste o tamanho da fonte conforme necessário */
+  }
+  
+
+  
+  /* Estilos para dispositivos móveis */
+  @media (max-width: 480px) {
+    .container {
+      max-width: 100%;
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  
+    button {
+      padding: 20px 40px;
+      font-size: 25px;
+      background-color: #da04ab;
+      border-radius: 10px;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+  
+    p {
+      margin-top: 30px;
+      font-size: 30px;
+    }
+  }
+  
